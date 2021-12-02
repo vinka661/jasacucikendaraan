@@ -1,7 +1,7 @@
 <?php
-    $host     = "localhost";
+    $host     = "172.20.0.2";
     $username = "root";
-    $password = "masrud.com";
+    $password = "admin";
     $database = "ajc";
     $koneksi  = mysqli_connect($host, $username, $password, $database);
 

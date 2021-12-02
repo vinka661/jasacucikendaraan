@@ -28,7 +28,7 @@
     <title>Aplikasi Jasa Cuci</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://objectstorage.ap-melbourne-1.oraclecloud.com/n/axzuyzwvtbvj/b/tugasUTS/o/css%2Fbootstrap.css" rel="stylesheet">
 	<style type="text/css">
 	body {
 	  padding-top: 40px;
@@ -126,7 +126,8 @@
 	<?php
 	}
 	?>
-    </div> <!-- /container -->
+    </div> 
+<div><img src="https://objectstorage.ap-melbourne-1.oraclecloud.com/n/axzuyzwvtbvj/b/tugasUTS/o/images.jpg" width="100"></div><!-- /container -->
 
 	<!-- Bootstrap core JavaScript, Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
