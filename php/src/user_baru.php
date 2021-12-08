@@ -1,12 +1,5 @@
 <?php
-if( empty( $_SESSION['id_user'] ) ){
-
-	$_SESSION['err'] = '<strong>ERROR!</strong> Anda harus login terlebih dahulu.';
-	header('Location: ./');
-	die();
-} else {
-
-	if( isset( $_REQUEST['submit'] )){
+if( isset( $_REQUEST['submit'] )){
 
 		$username = $_REQUEST['username'];
 		$password = MD5($_REQUEST['password']);
@@ -77,5 +70,4 @@ if( empty( $_SESSION['id_user'] ) ){
 </form>
 <?php
 	}
-}
 ?>
